@@ -1,0 +1,73 @@
+Source,C:\Users\ACER\Documents\GitHub\Bioimpedanciometro_Dise-oFinal\Proyecto_Bioimpedancia.sch
+Kicad Rev,Eeschema 4.0.2-stable
+Generated Date,31/08/2017 17:41:35
+
+Title,Not Set
+Company,Not Set
+Revision,Not Set
+Date Issue,Not Set
+
+Reference,Value,CAP CER 0.047UF 50V X7R 0805,RES SMD 50K OHM 0.05% 1/8W 0805,RES SMD 20K OHM 0.1% 1/8W 0805,CAP TANT 10UF 6.3V 20% 0805,RES SMD 10K OHM 1% 1/8W 0805,RES SMD 1K OHM 1% 1/8W 0805,LED GREEN DIFFUSED 0805 SMD,CAP CER 22PF 50V C0G/NP0 0805,CAP CER 1UF 50V Y5V 0805,RES SMD 140K OHM 1% 1/8W 0805,RES SMD 78.7K OHM 1% 1/8W 0805,Library,Library Ref
+U3,Atmega328PA,Libreria_Bioimpedancia,Atmega328PA
+BIO1,AD5933,Libreria_Bioimpedancia,AD5933
+U1,AD8606,Libreria_Bioimpedancia,AD8606
+U2,ADG819,Libreria_Bioimpedancia,ADG819
+C12,0,1uF,1276-2450-2-ND,,,,,,,,,,,Libreria_Bioimpedancia,0,1uF
+C1,47nF,399-1166-2-ND,,,,,,,,,,,Libreria_Bioimpedancia,47nF
+R5,50K,,541-3304-2-ND,,,,,,,,,,Libreria_Bioimpedancia,50K
+R6,50K,,541-3304-2-ND,,,,,,,,,,Libreria_Bioimpedancia,50K
+C3,0,1uF,1276-2450-2-ND,,,,,,,,,,,Libreria_Bioimpedancia,0,1uF
+C4,0,1uF,1276-2450-2-ND,,,,,,,,,,,Libreria_Bioimpedancia,0,1uF
+R9,20K,,,P20KDATR-ND,,,,,,,,,Libreria_Bioimpedancia,20K
+R8,20K,,,P20KDATR-ND,,,,,,,,,Libreria_Bioimpedancia,20K
+R1,50K,,541-3304-2-ND,,,,,,,,,,Libreria_Bioimpedancia,50K
+R2,50K,,541-3304-2-ND,,,,,,,,,,Libreria_Bioimpedancia,50K
+R10,RCAL,device,R_Small
+R7,R_GAIN,device,R_Small
+C14,10uF,,,,478-8115-2-ND,,,,,,,,Libreria_Bioimpedancia,10uF
+Y1,AMB3_16M,Libreria_Bioimpedancia,AMB3_16M
+P9,CONN_01X02,conn,CONN_01X02
+C7,0,1uF,1276-2450-2-ND,,,,,,,,,,,Libreria_Bioimpedancia,0,1uF
+C8,0,1uF,1276-2450-2-ND,,,,,,,,,,,Libreria_Bioimpedancia,0,1uF
+C9,0,1uF,1276-2450-2-ND,,,,,,,,,,,Libreria_Bioimpedancia,0,1uF
+SW1,SW_PUSH,device,SW_PUSH
+R11,10K,,,,,RMCF0805FT10K0TR-ND,,,,,,,Libreria_Bioimpedancia,10K
+W1,TEST_1P,conn,TEST_1P
+W2,TEST_1P,conn,TEST_1P
+W3,TEST_1P,conn,TEST_1P
+W4,TEST_1P,conn,TEST_1P
+W5,TEST_1P,conn,TEST_1P
+R16,1K,,,,,,RMCF0805FT1K00TR-ND,,,,,,Libreria_Bioimpedancia,1K
+R3,10K,,,,,RMCF0805FT10K0TR-ND,,,,,,,Libreria_Bioimpedancia,10K
+R4,10K,,,,,RMCF0805FT10K0TR-ND,,,,,,,Libreria_Bioimpedancia,10K
+J1,Jumper,Libreria_Bioimpedancia,Jumper
+J2,Jumper,Libreria_Bioimpedancia,Jumper
+J3,Jumper_Calibration,Libreria_Bioimpedancia,Jumper
+J4,Jumper,Libreria_Bioimpedancia,Jumper
+C2,10uF,,,,478-8115-2-ND,,,,,,,,Libreria_Bioimpedancia,10uF
+D2,Led_Small_Reg,,,,,,,475-1410-2-ND,,,,,Libreria_Bioimpedancia,Led_Small_Reg
+C6,18pF,,,,,,,,399-1113-2-ND,,,,Libreria_Bioimpedancia,18pF
+C5,18pF,,,,,,,,399-1113-2-ND,,,,Libreria_Bioimpedancia,18pF
+P12,CONN_01X02,conn,CONN_01X02
+P10,CONN_01X02,conn,CONN_01X02
+U4,ADP3334,Libreria_Bioimpedancia,ADP3334
+C10,1uF,,,,,,,,,1276-6495-2-ND,,,Libreria_Bioimpedancia,1uF
+R15,140K,,,,,,,,,,311-140KCRTR-ND,,Libreria_Bioimpedancia,140K
+R14,78,7K,,,,,,,,,,,311-78.7KCRTR-ND,Libreria_Bioimpedancia,78,7K
+R13,10K,,,,,RMCF0805FT10K0TR-ND,,,,,,,Libreria_Bioimpedancia,10K
+C11,1uF,,,,,,,,,1276-6495-2-ND,,,Libreria_Bioimpedancia,1uF
+C13,1nF,Libreria_Bioimpedancia,1nF
+P13,CONN_01X02,conn,CONN_01X02
+J5,Jumper,Libreria_Bioimpedancia,Jumper
+P4,CONN_01X02,conn,CONN_01X02
+P3,CONN_01X04,conn,CONN_01X04
+D1,Led_Small_Reg,,,,,,,475-1410-2-ND,,,,,Libreria_Bioimpedancia,Led_Small_Reg
+R12,1K,,,,,,RMCF0805FT1K00TR-ND,,,,,,Libreria_Bioimpedancia,1K
+J6,Jumper,Libreria_Bioimpedancia,Jumper
+P11,CONN_01X01,conn,CONN_01X01
+P8,CONN_01X01,conn,CONN_01X01
+P7,CONN_01X03,conn,CONN_01X03
+P2,CONN_01X08,conn,CONN_01X08
+P1,CONN_01X05,conn,CONN_01X05
+P5,CONN_01X04,conn,CONN_01X04
+P6,CONN_01X05,conn,CONN_01X05
