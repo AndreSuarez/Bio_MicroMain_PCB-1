@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <export version="D">
   <design>
-    <source>C:\Users\ACER\Documents\GitHub\Bioimpedanciometro_Dise-oFinal\Proyecto_Bioimpedancia.sch</source>
-    <date>31/08/2017 17:41:35</date>
+    <source>C:/Users/ACER/Documents/GitHub/Bioimpedanciometro_Dise-oFinal/Proyecto_Bioimpedancia.sch</source>
+    <date>13/09/2017 16:55:32</date>
     <tool>Eeschema 4.0.2-stable</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -67,26 +67,6 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>59113A89</tstamp>
     </comp>
-    <comp ref="R5">
-      <value>50K</value>
-      <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
-      <fields>
-        <field name="RES SMD 50K OHM 0.05% 1/8W 0805">541-3304-2-ND</field>
-      </fields>
-      <libsource lib="Libreria_Bioimpedancia" part="50K"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>59114385</tstamp>
-    </comp>
-    <comp ref="R6">
-      <value>50K</value>
-      <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
-      <fields>
-        <field name="RES SMD 50K OHM 0.05% 1/8W 0805">541-3304-2-ND</field>
-      </fields>
-      <libsource lib="Libreria_Bioimpedancia" part="50K"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5911AE77</tstamp>
-    </comp>
     <comp ref="C3">
       <value>0,1uF</value>
       <footprint>Capacitors_SMD:C_0805_HandSoldering</footprint>
@@ -127,26 +107,6 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>59128FA1</tstamp>
     </comp>
-    <comp ref="R1">
-      <value>50K</value>
-      <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
-      <fields>
-        <field name="RES SMD 50K OHM 0.05% 1/8W 0805">541-3304-2-ND</field>
-      </fields>
-      <libsource lib="Libreria_Bioimpedancia" part="50K"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>591298EE</tstamp>
-    </comp>
-    <comp ref="R2">
-      <value>50K</value>
-      <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
-      <fields>
-        <field name="RES SMD 50K OHM 0.05% 1/8W 0805">541-3304-2-ND</field>
-      </fields>
-      <libsource lib="Libreria_Bioimpedancia" part="50K"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>59129985</tstamp>
-    </comp>
     <comp ref="R10">
       <value>RCAL</value>
       <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
@@ -161,7 +121,7 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>59132524</tstamp>
     </comp>
-    <comp ref="C14">
+    <comp ref="C13">
       <value>10uF</value>
       <footprint>Capacitors_SMD:C_0805_HandSoldering</footprint>
       <fields>
@@ -178,9 +138,9 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5912EC72</tstamp>
     </comp>
-    <comp ref="P9">
+    <comp ref="P13">
       <value>CONN_01X02</value>
-      <footprint>Socket_Strips:Socket_Strip_Straight_1x02_Pitch2.54mm</footprint>
+      <footprint>Sockets_MOLEX_KK-System:Socket_MOLEX-KK-RM3-96mm_Lock_2pin_straight</footprint>
       <libsource lib="conn" part="CONN_01X02"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>59144527</tstamp>
@@ -267,7 +227,7 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>59188B66</tstamp>
     </comp>
-    <comp ref="R16">
+    <comp ref="R13">
       <value>1K</value>
       <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
       <fields>
@@ -277,7 +237,7 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5918CA66</tstamp>
     </comp>
-    <comp ref="R3">
+    <comp ref="R1">
       <value>10K</value>
       <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
       <fields>
@@ -365,90 +325,19 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>591D65F1</tstamp>
     </comp>
-    <comp ref="P12">
+    <comp ref="P16">
       <value>CONN_01X02</value>
-      <footprint>Socket_Strips:Socket_Strip_Straight_1x02_Pitch2.54mm</footprint>
+      <footprint>Sockets_MOLEX_KK-System:Socket_MOLEX-KK-RM3-96mm_Lock_2pin_straight</footprint>
       <libsource lib="conn" part="CONN_01X02"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>591D7E68</tstamp>
     </comp>
-    <comp ref="P10">
+    <comp ref="P14">
       <value>CONN_01X02</value>
-      <footprint>Socket_Strips:Socket_Strip_Straight_1x02_Pitch2.54mm</footprint>
+      <footprint>Sockets_MOLEX_KK-System:Socket_MOLEX-KK-RM3-96mm_Lock_2pin_straight</footprint>
       <libsource lib="conn" part="CONN_01X02"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>591D9B34</tstamp>
-    </comp>
-    <comp ref="U4">
-      <value>ADP3334</value>
-      <footprint>Housings_SOIC:SOIC-8_3.9x4.9mm_Pitch1.27mm</footprint>
-      <libsource lib="Libreria_Bioimpedancia" part="ADP3334"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>591DC905</tstamp>
-    </comp>
-    <comp ref="C10">
-      <value>1uF</value>
-      <footprint>Capacitors_SMD:C_0805_HandSoldering</footprint>
-      <fields>
-        <field name="CAP CER 1UF 50V Y5V 0805">1276-6495-2-ND</field>
-      </fields>
-      <libsource lib="Libreria_Bioimpedancia" part="1uF"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>591DC9E3</tstamp>
-    </comp>
-    <comp ref="R15">
-      <value>140K</value>
-      <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
-      <fields>
-        <field name="RES SMD 140K OHM 1% 1/8W 0805">311-140KCRTR-ND</field>
-      </fields>
-      <libsource lib="Libreria_Bioimpedancia" part="140K"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>591DF7E6</tstamp>
-    </comp>
-    <comp ref="R14">
-      <value>78,7K</value>
-      <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
-      <fields>
-        <field name="RES SMD 78.7K OHM 1% 1/8W 0805">311-78.7KCRTR-ND</field>
-      </fields>
-      <libsource lib="Libreria_Bioimpedancia" part="78,7K"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>591DF87C</tstamp>
-    </comp>
-    <comp ref="R13">
-      <value>10K</value>
-      <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
-      <fields>
-        <field name="RES SMD 10K OHM 1% 1/8W 0805">RMCF0805FT10K0TR-ND</field>
-      </fields>
-      <libsource lib="Libreria_Bioimpedancia" part="10K"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>591E758D</tstamp>
-    </comp>
-    <comp ref="C11">
-      <value>1uF</value>
-      <footprint>Capacitors_SMD:C_0805_HandSoldering</footprint>
-      <fields>
-        <field name="CAP CER 1UF 50V Y5V 0805">1276-6495-2-ND</field>
-      </fields>
-      <libsource lib="Libreria_Bioimpedancia" part="1uF"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>591ECF27</tstamp>
-    </comp>
-    <comp ref="C13">
-      <value>1nF</value>
-      <footprint>Capacitors_SMD:C_1206_HandSoldering</footprint>
-      <libsource lib="Libreria_Bioimpedancia" part="1nF"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>591F7C79</tstamp>
-    </comp>
-    <comp ref="P13">
-      <value>CONN_01X02</value>
-      <footprint>Socket_Strips:Socket_Strip_Straight_1x02_Pitch2.54mm</footprint>
-      <libsource lib="conn" part="CONN_01X02"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5920289F</tstamp>
     </comp>
     <comp ref="J5">
       <value>Jumper</value>
@@ -457,14 +346,14 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>59AA6EF2</tstamp>
     </comp>
-    <comp ref="P4">
+    <comp ref="P3">
       <value>CONN_01X02</value>
-      <footprint>Socket_Strips:Socket_Strip_Straight_1x02_Pitch2.54mm</footprint>
+      <footprint>Sockets_MOLEX_KK-System:Socket_MOLEX-KK-RM3-96mm_Lock_2pin_straight</footprint>
       <libsource lib="conn" part="CONN_01X02"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>59AA0CEC</tstamp>
     </comp>
-    <comp ref="P3">
+    <comp ref="P4">
       <value>CONN_01X04</value>
       <footprint>Socket_Strips:Socket_Strip_Straight_1x04_Pitch2.54mm</footprint>
       <libsource lib="conn" part="CONN_01X04"/>
@@ -493,25 +382,26 @@
     </comp>
     <comp ref="J6">
       <value>Jumper</value>
+      <footprint>Pin_Headers:Pin_Header_Straight_1x02_Pitch2.54mm</footprint>
       <libsource lib="Libreria_Bioimpedancia" part="Jumper"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>59A70011</tstamp>
     </comp>
-    <comp ref="P11">
+    <comp ref="P15">
       <value>CONN_01X01</value>
       <footprint>Socket_Strips:Socket_Strip_Straight_1x01_Pitch2.54mm</footprint>
       <libsource lib="conn" part="CONN_01X01"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>59A73622</tstamp>
     </comp>
-    <comp ref="P8">
+    <comp ref="P12">
       <value>CONN_01X01</value>
       <footprint>Socket_Strips:Socket_Strip_Straight_1x01_Pitch2.54mm</footprint>
       <libsource lib="conn" part="CONN_01X01"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>59A867BB</tstamp>
     </comp>
-    <comp ref="P7">
+    <comp ref="P10">
       <value>CONN_01X03</value>
       <footprint>Socket_Strips:Socket_Strip_Straight_1x03_Pitch2.54mm</footprint>
       <libsource lib="conn" part="CONN_01X03"/>
@@ -539,11 +429,114 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>59AD5B11</tstamp>
     </comp>
-    <comp ref="P6">
-      <value>CONN_01X05</value>
-      <libsource lib="conn" part="CONN_01X05"/>
+    <comp ref="P11">
+      <value>CONN_01X02</value>
+      <footprint>Sockets_MOLEX_KK-System:Socket_MOLEX-KK-RM3-96mm_Lock_2pin_straight</footprint>
+      <libsource lib="conn" part="CONN_01X02"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamp>59B174A5</tstamp>
+      <tstamp>59B2DE59</tstamp>
+    </comp>
+    <comp ref="P8">
+      <value>CONN_01X02</value>
+      <footprint>Sockets_MOLEX_KK-System:Socket_MOLEX-KK-RM3-96mm_Lock_2pin_straight</footprint>
+      <libsource lib="conn" part="CONN_01X02"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59B2DF14</tstamp>
+    </comp>
+    <comp ref="P6">
+      <value>CONN_01X02</value>
+      <footprint>Socket_Strips:Socket_Strip_Straight_1x02_Pitch2.54mm</footprint>
+      <libsource lib="conn" part="CONN_01X02"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59B39B02</tstamp>
+    </comp>
+    <comp ref="P7">
+      <value>CONN_01X02</value>
+      <footprint>Socket_Strips:Socket_Strip_Straight_1x02_Pitch2.54mm</footprint>
+      <libsource lib="conn" part="CONN_01X02"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59B39CA1</tstamp>
+    </comp>
+    <comp ref="P9">
+      <value>CONN_01X04</value>
+      <footprint>Socket_Strips:Socket_Strip_Straight_1x04_Pitch2.54mm</footprint>
+      <libsource lib="conn" part="CONN_01X04"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59B589EE</tstamp>
+    </comp>
+    <comp ref="U4">
+      <value>LD1117S50TR</value>
+      <footprint>TO_SOT_Packages_SMD:SOT-223</footprint>
+      <libsource lib="regul" part="LD1117S50TR"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59B85C83</tstamp>
+    </comp>
+    <comp ref="C10">
+      <value>0,1uF</value>
+      <footprint>Capacitors_SMD:C_0805_HandSoldering</footprint>
+      <fields>
+        <field name="CAP CER 0.1UF 50V X7R 0805">478-1395-2-ND</field>
+      </fields>
+      <libsource lib="Libreria_Bioimpedancia" part="0,1uF"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59B87D03</tstamp>
+    </comp>
+    <comp ref="C11">
+      <value>10uF</value>
+      <footprint>Capacitors_SMD:C_0805_HandSoldering</footprint>
+      <fields>
+        <field name="CAP TANT 10UF 6.3V 20% 0805">478-8115-2-ND</field>
+      </fields>
+      <libsource lib="Libreria_Bioimpedancia" part="10uF"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59B884BB</tstamp>
+    </comp>
+    <comp ref="W6">
+      <value>TEST_1P</value>
+      <footprint>Measurement_Points:Measurement_Point_Round-TH_Small</footprint>
+      <libsource lib="conn" part="TEST_1P"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59BCBD99</tstamp>
+    </comp>
+    <comp ref="R2">
+      <value>20K</value>
+      <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
+      <fields>
+        <field name="RES SMD 20K OHM 1% 1/8W 0805">RC0805FR-0720KL</field>
+      </fields>
+      <libsource lib="Libreria_Bioimpedancia" part="20K"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59B9E15A</tstamp>
+    </comp>
+    <comp ref="R3">
+      <value>20K</value>
+      <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
+      <fields>
+        <field name="RES SMD 20K OHM 1% 1/8W 0805">RC0805FR-0720KL</field>
+      </fields>
+      <libsource lib="Libreria_Bioimpedancia" part="20K"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59B9EEE4</tstamp>
+    </comp>
+    <comp ref="R5">
+      <value>20K</value>
+      <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
+      <fields>
+        <field name="RES SMD 20K OHM 1% 1/8W 0805">RC0805FR-0720KL</field>
+      </fields>
+      <libsource lib="Libreria_Bioimpedancia" part="20K"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59B9FC12</tstamp>
+    </comp>
+    <comp ref="R6">
+      <value>20K</value>
+      <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
+      <fields>
+        <field name="RES SMD 20K OHM 1% 1/8W 0805">RC0805FR-0720KL</field>
+      </fields>
+      <libsource lib="Libreria_Bioimpedancia" part="20K"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59BA04DE</tstamp>
     </comp>
   </components>
   <libparts>
@@ -604,23 +597,6 @@
         <pin num="2" name="~" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="Libreria_Bioimpedancia" part="140K">
-      <description>Resistor</description>
-      <footprints>
-        <fp>Resistor_*</fp>
-        <fp>R_*</fp>
-      </footprints>
-      <fields>
-        <field name="Reference">R</field>
-        <field name="Value">140K</field>
-        <field name="Footprint">Resistors_SMD:R_0805_HandSoldering</field>
-        <field name="RES SMD 140K OHM 1% 1/8W 0805">311-140KCRTR-ND</field>
-      </fields>
-      <pins>
-        <pin num="1" name="~" type="passive"/>
-        <pin num="2" name="~" type="passive"/>
-      </pins>
-    </libpart>
     <libpart lib="Libreria_Bioimpedancia" part="18pF">
       <description>Unpolarized capacitor</description>
       <footprints>
@@ -658,45 +634,6 @@
         <pin num="2" name="~" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="Libreria_Bioimpedancia" part="1nF">
-      <description>Unpolarized capacitor</description>
-      <footprints>
-        <fp>C?</fp>
-        <fp>C_????_*</fp>
-        <fp>C_????</fp>
-        <fp>SMD*_c</fp>
-        <fp>Capacitor*</fp>
-      </footprints>
-      <fields>
-        <field name="Reference">C</field>
-        <field name="Value">1nF</field>
-        <field name="Footprint">Capacitors_SMD:C_1206_HandSoldering</field>
-      </fields>
-      <pins>
-        <pin num="1" name="~" type="passive"/>
-        <pin num="2" name="~" type="passive"/>
-      </pins>
-    </libpart>
-    <libpart lib="Libreria_Bioimpedancia" part="1uF">
-      <description>Unpolarized capacitor</description>
-      <footprints>
-        <fp>C?</fp>
-        <fp>C_????_*</fp>
-        <fp>C_????</fp>
-        <fp>SMD*_c</fp>
-        <fp>Capacitor*</fp>
-      </footprints>
-      <fields>
-        <field name="Reference">C</field>
-        <field name="Value">1uF</field>
-        <field name="Footprint">Capacitors_SMD:C_0805_HandSoldering</field>
-        <field name="CAP CER 1UF 50V Y5V 0805">1276-6495-2-ND</field>
-      </fields>
-      <pins>
-        <pin num="1" name="~" type="passive"/>
-        <pin num="2" name="~" type="passive"/>
-      </pins>
-    </libpart>
     <libpart lib="Libreria_Bioimpedancia" part="20K">
       <description>Resistor</description>
       <footprints>
@@ -728,40 +665,6 @@
         <field name="Value">47nF</field>
         <field name="Footprint">Capacitors_SMD:C_0805_HandSoldering</field>
         <field name="CAP CER 0.047UF 50V X7R 0805">399-1166-2-ND</field>
-      </fields>
-      <pins>
-        <pin num="1" name="~" type="passive"/>
-        <pin num="2" name="~" type="passive"/>
-      </pins>
-    </libpart>
-    <libpart lib="Libreria_Bioimpedancia" part="50K">
-      <description>Resistor</description>
-      <footprints>
-        <fp>Resistor_*</fp>
-        <fp>R_*</fp>
-      </footprints>
-      <fields>
-        <field name="Reference">R</field>
-        <field name="Value">50K</field>
-        <field name="Footprint">Resistors_SMD:R_0805_HandSoldering</field>
-        <field name="RES SMD 50K OHM 0.05% 1/8W 0805">541-3304-2-ND</field>
-      </fields>
-      <pins>
-        <pin num="1" name="~" type="passive"/>
-        <pin num="2" name="~" type="passive"/>
-      </pins>
-    </libpart>
-    <libpart lib="Libreria_Bioimpedancia" part="78,7K">
-      <description>Resistor</description>
-      <footprints>
-        <fp>Resistor_*</fp>
-        <fp>R_*</fp>
-      </footprints>
-      <fields>
-        <field name="Reference">R</field>
-        <field name="Value">78,7K</field>
-        <field name="Footprint">Resistors_SMD:R_0805_HandSoldering</field>
-        <field name="RES SMD 78.7K OHM 1% 1/8W 0805">311-78.7KCRTR-ND</field>
       </fields>
       <pins>
         <pin num="1" name="~" type="passive"/>
@@ -820,24 +723,6 @@
         <pin num="4" name="VDD" type="passive"/>
         <pin num="6" name="IN" type="passive"/>
         <pin num="8" name="S2" type="passive"/>
-      </pins>
-    </libpart>
-    <libpart lib="Libreria_Bioimpedancia" part="ADP3334">
-      <docs>C:/Users/ACER/Documents/GitHub/Bioimpedanciometro_PCB/Proyecto_Bioimpedancia/Datasheets/ADP3334.pdf</docs>
-      <fields>
-        <field name="Reference">U</field>
-        <field name="Value">ADP3334</field>
-        <field name="Footprint">Housings_SOIC:SOIC-8_3.9x4.9mm_Pitch1.27mm</field>
-      </fields>
-      <pins>
-        <pin num="1" name="GND" type="passive"/>
-        <pin num="2" name="SD" type="passive"/>
-        <pin num="3" name="IN" type="passive"/>
-        <pin num="4" name="IN" type="passive"/>
-        <pin num="5" name="OUT" type="passive"/>
-        <pin num="6" name="OUT" type="passive"/>
-        <pin num="7" name="FB" type="passive"/>
-        <pin num="8" name="NC" type="NotConnected"/>
       </pins>
     </libpart>
     <libpart lib="Libreria_Bioimpedancia" part="AMB3_16M">
@@ -1025,6 +910,34 @@
         <pin num="2" name="~" type="passive"/>
       </pins>
     </libpart>
+    <libpart lib="regul" part="LD1117S33TR">
+      <aliases>
+        <alias>LD1117S33CTR</alias>
+        <alias>LD1117S12TR</alias>
+        <alias>LD1117S12CTR</alias>
+        <alias>LD1117S18TR</alias>
+        <alias>LD1117S18CTR</alias>
+        <alias>LD1117S25TR</alias>
+        <alias>LD1117S25CTR</alias>
+        <alias>LD1117S50TR</alias>
+        <alias>LD1117S50CTR</alias>
+      </aliases>
+      <description>800mA Fixed Low Drop Positive Voltage Regulator, Fixed Output 3.3V, SOT223</description>
+      <docs>http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00000544.pdf</docs>
+      <footprints>
+        <fp>SOT223</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">LD1117S33TR</field>
+        <field name="Footprint">SOT-223</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="power_in"/>
+        <pin num="2" name="VO" type="power_out"/>
+        <pin num="3" name="VI" type="power_in"/>
+      </pins>
+    </libpart>
     <libpart lib="Libreria_Bioimpedancia" part="Led_Small_Reg">
       <description>Led</description>
       <footprints>
@@ -1079,304 +992,294 @@
     </libpart>
   </libparts>
   <libraries>
+    <library logical="device">
+      <uri>C:\Program Files\KiCad\share\kicad\library\device.lib</uri>
+    </library>
     <library logical="conn">
       <uri>C:\Program Files\KiCad\share\kicad\library\conn.lib</uri>
+    </library>
+    <library logical="regul">
+      <uri>C:\Program Files\KiCad\share\kicad\library\regul.lib</uri>
     </library>
     <library logical="Libreria_Bioimpedancia">
       <uri>C:\Users\ACER\Documents\GitHub\Bioimpedanciometro_Dise-oFinal\Libreria_Proyecto_Bio\Libreria_Bioimpedancia.lib</uri>
     </library>
-    <library logical="device">
-      <uri>C:\Program Files\KiCad\share\kicad\library\device.lib</uri>
-    </library>
   </libraries>
   <nets>
-    <net code="1" name="/SIGNAL_A1">
+    <net code="1" name="/FEEDBACK_A2">
+      <node ref="R8" pin="1"/>
+      <node ref="R7" pin="1"/>
+      <node ref="U1" pin="7"/>
+      <node ref="J3" pin="1"/>
+    </net>
+    <net code="2" name="/RX_V">
+      <node ref="P4" pin="2"/>
+      <node ref="U3" pin="2"/>
+    </net>
+    <net code="3" name="/TX_V">
+      <node ref="P4" pin="3"/>
+      <node ref="U3" pin="1"/>
+    </net>
+    <net code="4" name="Net-(R2-Pad2)">
+      <node ref="U1" pin="5"/>
+      <node ref="R3" pin="1"/>
+      <node ref="R2" pin="2"/>
+    </net>
+    <net code="5" name="/~SS">
+      <node ref="U3" pin="14"/>
+      <node ref="P9" pin="1"/>
+    </net>
+    <net code="6" name="Net-(D2-Pad2)">
+      <node ref="R13" pin="2"/>
+      <node ref="D2" pin="2"/>
+    </net>
+    <net code="7" name="/REG1_2">
+      <node ref="P1" pin="3"/>
+      <node ref="U3" pin="10"/>
+    </net>
+    <net code="8" name="/Z_UK">
+      <node ref="P14" pin="2"/>
+      <node ref="P14" pin="1"/>
+      <node ref="U2" pin="2"/>
+    </net>
+    <net code="9" name="/VOUT_AD5933">
+      <node ref="BIO1" pin="6"/>
+      <node ref="C1" pin="1"/>
+      <node ref="W2" pin="1"/>
+    </net>
+    <net code="10" name="/ENC_1">
+      <node ref="P5" pin="2"/>
+      <node ref="U3" pin="12"/>
+    </net>
+    <net code="11" name="/REG2_1">
+      <node ref="U3" pin="19"/>
+      <node ref="P2" pin="2"/>
+    </net>
+    <net code="12" name="/ENC_2">
+      <node ref="P5" pin="3"/>
+      <node ref="U3" pin="13"/>
+    </net>
+    <net code="13" name="/REG1_3">
+      <node ref="P1" pin="4"/>
+      <node ref="U3" pin="11"/>
+    </net>
+    <net code="14" name="/SIGNAL_A2">
+      <node ref="W3" pin="1"/>
+      <node ref="P16" pin="2"/>
+      <node ref="J4" pin="1"/>
+      <node ref="P16" pin="1"/>
+      <node ref="U1" pin="6"/>
+      <node ref="J3" pin="2"/>
+      <node ref="R7" pin="2"/>
+      <node ref="R10" pin="1"/>
+    </net>
+    <net code="15" name="/RESET">
+      <node ref="R11" pin="2"/>
+      <node ref="SW1" pin="1"/>
+      <node ref="P12" pin="1"/>
+      <node ref="U3" pin="29"/>
+    </net>
+    <net code="16" name="/CLK1">
+      <node ref="U3" pin="7"/>
+      <node ref="Y1" pin="1"/>
+      <node ref="C5" pin="1"/>
+    </net>
+    <net code="17" name="/REG2_4">
+      <node ref="U3" pin="24"/>
+      <node ref="P2" pin="5"/>
+    </net>
+    <net code="18" name="/REG2_3">
+      <node ref="U3" pin="23"/>
+      <node ref="P2" pin="4"/>
+    </net>
+    <net code="19" name="/CLK2">
+      <node ref="U3" pin="8"/>
+      <node ref="C6" pin="1"/>
+      <node ref="Y1" pin="2"/>
+    </net>
+    <net code="20" name="/RXD">
+      <node ref="U3" pin="30"/>
+      <node ref="P10" pin="3"/>
+    </net>
+    <net code="21" name="/TXD">
+      <node ref="U3" pin="31"/>
+      <node ref="P10" pin="2"/>
+    </net>
+    <net code="22" name="/VIN_AD5933">
+      <node ref="W4" pin="1"/>
+      <node ref="BIO1" pin="5"/>
+      <node ref="R9" pin="1"/>
+      <node ref="R8" pin="2"/>
+    </net>
+    <net code="23" name="/RFB_AD5933">
+      <node ref="BIO1" pin="4"/>
+      <node ref="R9" pin="2"/>
+    </net>
+    <net code="24" name="/SWITCH">
+      <node ref="U2" pin="6"/>
+      <node ref="J5" pin="1"/>
+    </net>
+    <net code="25" name="/SCK">
+      <node ref="U3" pin="17"/>
+      <node ref="P9" pin="4"/>
+    </net>
+    <net code="26" name="/5V">
+      <node ref="W5" pin="1"/>
+      <node ref="C3" pin="1"/>
+      <node ref="R1" pin="1"/>
+      <node ref="C4" pin="1"/>
+      <node ref="J6" pin="1"/>
+      <node ref="P5" pin="1"/>
+      <node ref="R4" pin="1"/>
+      <node ref="C7" pin="2"/>
+      <node ref="C8" pin="1"/>
+      <node ref="C9" pin="1"/>
+      <node ref="R11" pin="1"/>
+      <node ref="C2" pin="1"/>
+      <node ref="U2" pin="4"/>
+      <node ref="U3" pin="4"/>
+      <node ref="U3" pin="6"/>
+      <node ref="U3" pin="20"/>
+      <node ref="P3" pin="1"/>
+      <node ref="C12" pin="2"/>
+      <node ref="U1" pin="8"/>
+      <node ref="BIO1" pin="9"/>
+      <node ref="BIO1" pin="10"/>
+      <node ref="P1" pin="1"/>
+      <node ref="P4" pin="1"/>
+      <node ref="U3" pin="18"/>
+      <node ref="P2" pin="1"/>
+      <node ref="C13" pin="1"/>
+      <node ref="BIO1" pin="11"/>
+      <node ref="R2" pin="1"/>
+      <node ref="R5" pin="1"/>
+      <node ref="P8" pin="1"/>
+      <node ref="P11" pin="1"/>
+    </net>
+    <net code="27" name="/AGND">
+      <node ref="P3" pin="2"/>
+      <node ref="P4" pin="4"/>
+      <node ref="P8" pin="2"/>
+      <node ref="P2" pin="8"/>
+      <node ref="U3" pin="21"/>
+      <node ref="U2" pin="3"/>
+      <node ref="C11" pin="1"/>
+      <node ref="C12" pin="1"/>
+      <node ref="C10" pin="1"/>
+      <node ref="R6" pin="2"/>
+      <node ref="P11" pin="2"/>
+      <node ref="BIO1" pin="12"/>
+      <node ref="BIO1" pin="13"/>
+      <node ref="BIO1" pin="14"/>
+      <node ref="R3" pin="2"/>
+      <node ref="U1" pin="4"/>
+      <node ref="SW1" pin="2"/>
+      <node ref="C9" pin="2"/>
+      <node ref="D2" pin="1"/>
+      <node ref="C2" pin="2"/>
+      <node ref="C7" pin="1"/>
+      <node ref="P15" pin="1"/>
+      <node ref="P1" pin="5"/>
+      <node ref="D1" pin="1"/>
+      <node ref="U4" pin="1"/>
+      <node ref="C8" pin="2"/>
+      <node ref="C6" pin="2"/>
+      <node ref="P10" pin="1"/>
+      <node ref="C5" pin="2"/>
+      <node ref="C3" pin="2"/>
+      <node ref="P5" pin="4"/>
+      <node ref="C4" pin="2"/>
+      <node ref="C13" pin="2"/>
+      <node ref="P13" pin="2"/>
+      <node ref="U3" pin="5"/>
+      <node ref="U3" pin="3"/>
+    </net>
+    <net code="28" name="/SDA_R">
+      <node ref="R1" pin="2"/>
+      <node ref="P7" pin="1"/>
+      <node ref="P6" pin="1"/>
+      <node ref="U3" pin="27"/>
+      <node ref="J1" pin="2"/>
+    </net>
+    <net code="29" name="/SCL_R">
+      <node ref="P7" pin="2"/>
+      <node ref="P6" pin="2"/>
+      <node ref="R4" pin="2"/>
+      <node ref="J2" pin="2"/>
+      <node ref="U3" pin="28"/>
+    </net>
+    <net code="30" name="/MISO">
+      <node ref="P9" pin="3"/>
+      <node ref="U3" pin="16"/>
+    </net>
+    <net code="31" name="Net-(C11-Pad2)">
+      <node ref="R13" pin="1"/>
+      <node ref="J6" pin="2"/>
+      <node ref="U4" pin="2"/>
+      <node ref="C11" pin="2"/>
+    </net>
+    <net code="32" name="Net-(D1-Pad2)">
+      <node ref="D1" pin="2"/>
+      <node ref="R12" pin="2"/>
+    </net>
+    <net code="33" name="/V_FUENTE">
+      <node ref="W6" pin="1"/>
+      <node ref="P13" pin="1"/>
+      <node ref="R12" pin="1"/>
+      <node ref="C10" pin="2"/>
+      <node ref="U4" pin="3"/>
+    </net>
+    <net code="34" name="Net-(J5-Pad2)">
+      <node ref="U3" pin="32"/>
+      <node ref="J5" pin="2"/>
+    </net>
+    <net code="35" name="Net-(J4-Pad2)">
+      <node ref="R10" pin="2"/>
+      <node ref="J4" pin="2"/>
+      <node ref="U2" pin="8"/>
+    </net>
+    <net code="36" name="Net-(C1-Pad2)">
+      <node ref="U1" pin="3"/>
+      <node ref="R6" pin="1"/>
+      <node ref="R5" pin="2"/>
+      <node ref="C1" pin="2"/>
+    </net>
+    <net code="37" name="/REG2_2">
+      <node ref="P2" pin="3"/>
+      <node ref="U3" pin="22"/>
+    </net>
+    <net code="38" name="/REG2_5">
+      <node ref="U3" pin="25"/>
+      <node ref="P2" pin="6"/>
+    </net>
+    <net code="39" name="/SDA">
+      <node ref="J1" pin="1"/>
+      <node ref="BIO1" pin="15"/>
+    </net>
+    <net code="40" name="/SCL">
+      <node ref="J2" pin="1"/>
+      <node ref="BIO1" pin="16"/>
+    </net>
+    <net code="41" name="/SIGNAL_A1">
       <node ref="U1" pin="2"/>
       <node ref="U1" pin="1"/>
       <node ref="W1" pin="1"/>
       <node ref="U2" pin="1"/>
     </net>
-    <net code="2" name="/VOUT_AD5933">
-      <node ref="W2" pin="1"/>
-      <node ref="C1" pin="1"/>
-      <node ref="BIO1" pin="6"/>
-    </net>
-    <net code="3" name="Net-(C13-Pad1)">
-      <node ref="R14" pin="2"/>
-      <node ref="C13" pin="1"/>
-      <node ref="R15" pin="1"/>
-      <node ref="U4" pin="7"/>
-    </net>
-    <net code="4" name="/REG2_3">
-      <node ref="P2" pin="4"/>
-      <node ref="U3" pin="24"/>
-    </net>
-    <net code="5" name="/REG2_4">
-      <node ref="U3" pin="23"/>
-      <node ref="P2" pin="5"/>
-    </net>
-    <net code="6" name="/VIN_AD5933">
-      <node ref="R8" pin="2"/>
-      <node ref="BIO1" pin="5"/>
-      <node ref="R9" pin="1"/>
-      <node ref="W4" pin="1"/>
-    </net>
-    <net code="7" name="/RFB_AD5933">
-      <node ref="BIO1" pin="4"/>
-      <node ref="R9" pin="2"/>
-    </net>
-    <net code="8" name="Net-(R1-Pad2)">
-      <node ref="U1" pin="5"/>
-      <node ref="R1" pin="2"/>
-      <node ref="R2" pin="1"/>
-    </net>
-    <net code="9" name="/SWITCH">
-      <node ref="J5" pin="1"/>
-      <node ref="U2" pin="6"/>
-    </net>
-    <net code="10" name="/SCK">
-      <node ref="U3" pin="17"/>
-      <node ref="P6" pin="4"/>
-    </net>
-    <net code="11" name="/CLK2">
-      <node ref="Y1" pin="2"/>
-      <node ref="U3" pin="8"/>
-      <node ref="C6" pin="1"/>
-    </net>
-    <net code="12" name="/CLK1">
-      <node ref="Y1" pin="1"/>
-      <node ref="U3" pin="7"/>
-      <node ref="C5" pin="1"/>
-    </net>
-    <net code="13" name="/REG2_6">
+    <net code="42" name="/REG2_6">
       <node ref="P2" pin="7"/>
-      <node ref="U3" pin="19"/>
+      <node ref="U3" pin="26"/>
     </net>
-    <net code="14" name="/REG1_1">
+    <net code="43" name="/REG1_1">
       <node ref="U3" pin="9"/>
       <node ref="P1" pin="2"/>
     </net>
-    <net code="15" name="/REG1_2">
-      <node ref="P1" pin="3"/>
-      <node ref="U3" pin="10"/>
-    </net>
-    <net code="16" name="/TX_V">
-      <node ref="P3" pin="3"/>
-      <node ref="U3" pin="1"/>
-    </net>
-    <net code="17" name="/RX_V">
-      <node ref="P3" pin="2"/>
-      <node ref="U3" pin="2"/>
-    </net>
-    <net code="18" name="/AGND">
-      <node ref="C6" pin="2"/>
-      <node ref="C8" pin="2"/>
-      <node ref="D2" pin="1"/>
-      <node ref="C2" pin="2"/>
-      <node ref="R13" pin="1"/>
-      <node ref="R6" pin="2"/>
-      <node ref="BIO1" pin="12"/>
-      <node ref="BIO1" pin="13"/>
-      <node ref="BIO1" pin="14"/>
-      <node ref="U1" pin="4"/>
-      <node ref="U2" pin="3"/>
-      <node ref="C12" pin="1"/>
-      <node ref="C11" pin="2"/>
-      <node ref="U4" pin="1"/>
-      <node ref="C10" pin="2"/>
-      <node ref="R14" pin="1"/>
-      <node ref="P4" pin="2"/>
-      <node ref="P3" pin="4"/>
-      <node ref="C7" pin="1"/>
-      <node ref="C3" pin="2"/>
-      <node ref="C4" pin="2"/>
-      <node ref="C14" pin="2"/>
-      <node ref="C9" pin="2"/>
-      <node ref="P9" pin="2"/>
-      <node ref="R2" pin="2"/>
-      <node ref="SW1" pin="2"/>
-      <node ref="U3" pin="3"/>
-      <node ref="U3" pin="5"/>
-      <node ref="U3" pin="21"/>
-      <node ref="P2" pin="8"/>
-      <node ref="P1" pin="5"/>
-      <node ref="D1" pin="1"/>
-      <node ref="P11" pin="1"/>
-      <node ref="P7" pin="3"/>
-      <node ref="P5" pin="4"/>
-      <node ref="C5" pin="2"/>
-    </net>
-    <net code="19" name="Net-(D1-Pad2)">
-      <node ref="R12" pin="2"/>
-      <node ref="D1" pin="2"/>
-    </net>
-    <net code="20" name="/~SS">
-      <node ref="P6" pin="1"/>
-      <node ref="U3" pin="14"/>
-    </net>
-    <net code="21" name="/RESET">
-      <node ref="P6" pin="5"/>
-      <node ref="U3" pin="29"/>
-      <node ref="P8" pin="1"/>
-      <node ref="SW1" pin="1"/>
-      <node ref="R11" pin="2"/>
-    </net>
-    <net code="22" name="/TXD">
-      <node ref="P7" pin="1"/>
-      <node ref="U3" pin="31"/>
-    </net>
-    <net code="23" name="/RXD">
-      <node ref="P7" pin="2"/>
-      <node ref="U3" pin="30"/>
-    </net>
-    <net code="24" name="/D_REG">
-      <node ref="U4" pin="2"/>
-      <node ref="P13" pin="1"/>
-      <node ref="R13" pin="2"/>
-    </net>
-    <net code="25" name="Net-(C11-Pad1)">
-      <node ref="U4" pin="6"/>
-      <node ref="U4" pin="5"/>
-      <node ref="J6" pin="2"/>
-      <node ref="C11" pin="1"/>
-      <node ref="R16" pin="1"/>
-      <node ref="R15" pin="2"/>
-      <node ref="C13" pin="2"/>
-    </net>
-    <net code="26" name="/3V3">
-      <node ref="R3" pin="1"/>
-      <node ref="J6" pin="1"/>
-      <node ref="U3" pin="18"/>
-      <node ref="P5" pin="1"/>
-      <node ref="BIO1" pin="10"/>
-      <node ref="W5" pin="1"/>
-      <node ref="U1" pin="8"/>
-      <node ref="BIO1" pin="11"/>
-      <node ref="U2" pin="4"/>
-      <node ref="R5" pin="1"/>
-      <node ref="C12" pin="2"/>
-      <node ref="P2" pin="1"/>
-      <node ref="U3" pin="20"/>
-      <node ref="BIO1" pin="9"/>
-      <node ref="P1" pin="1"/>
-      <node ref="U3" pin="6"/>
-      <node ref="U3" pin="4"/>
-      <node ref="R4" pin="1"/>
-      <node ref="C9" pin="1"/>
-      <node ref="P3" pin="1"/>
-      <node ref="C3" pin="1"/>
-      <node ref="P4" pin="1"/>
-      <node ref="C7" pin="2"/>
-      <node ref="R11" pin="1"/>
-      <node ref="C14" pin="1"/>
-      <node ref="C8" pin="1"/>
-      <node ref="C2" pin="1"/>
-      <node ref="R1" pin="1"/>
-      <node ref="C4" pin="1"/>
-    </net>
-    <net code="27" name="/MISO">
-      <node ref="P6" pin="3"/>
-      <node ref="U3" pin="16"/>
-    </net>
-    <net code="28" name="/ENC_2">
-      <node ref="P5" pin="3"/>
-      <node ref="U3" pin="13"/>
-    </net>
-    <net code="29" name="/ENC_1">
-      <node ref="U3" pin="12"/>
-      <node ref="P5" pin="2"/>
-    </net>
-    <net code="30" name="/REG1_3">
-      <node ref="P1" pin="4"/>
-      <node ref="U3" pin="11"/>
-    </net>
-    <net code="31" name="Net-(J4-Pad2)">
-      <node ref="J4" pin="2"/>
-      <node ref="U2" pin="8"/>
-      <node ref="R10" pin="2"/>
-    </net>
-    <net code="32" name="Net-(C1-Pad2)">
-      <node ref="U1" pin="3"/>
-      <node ref="R5" pin="2"/>
-      <node ref="R6" pin="1"/>
-      <node ref="C1" pin="2"/>
-    </net>
-    <net code="33" name="/REG2_5">
-      <node ref="U3" pin="22"/>
-      <node ref="P2" pin="6"/>
-    </net>
-    <net code="34" name="/REG2_2">
-      <node ref="U3" pin="25"/>
-      <node ref="P2" pin="3"/>
-    </net>
-    <net code="35" name="/SCL_R">
-      <node ref="U3" pin="28"/>
-      <node ref="R4" pin="2"/>
-      <node ref="J2" pin="2"/>
-    </net>
-    <net code="36" name="/SDA_R">
-      <node ref="U3" pin="27"/>
-      <node ref="J1" pin="2"/>
-      <node ref="R3" pin="2"/>
-    </net>
-    <net code="37" name="/SDA">
-      <node ref="BIO1" pin="15"/>
-      <node ref="J1" pin="1"/>
-    </net>
-    <net code="38" name="/SCL">
-      <node ref="BIO1" pin="16"/>
-      <node ref="J2" pin="1"/>
-    </net>
-    <net code="39" name="/Z_UK">
-      <node ref="U2" pin="2"/>
-      <node ref="P10" pin="1"/>
-      <node ref="P10" pin="2"/>
-    </net>
-    <net code="40" name="Net-(J5-Pad2)">
-      <node ref="U3" pin="32"/>
-      <node ref="J5" pin="2"/>
-    </net>
-    <net code="41" name="/REG2_1">
-      <node ref="P2" pin="2"/>
-      <node ref="U3" pin="26"/>
-    </net>
-    <net code="42" name="/V_FUENTE">
-      <node ref="P9" pin="1"/>
-      <node ref="C10" pin="1"/>
-      <node ref="U4" pin="3"/>
-      <node ref="U4" pin="4"/>
-      <node ref="R12" pin="1"/>
-      <node ref="P13" pin="2"/>
-    </net>
-    <net code="43" name="/MOSI">
-      <node ref="P6" pin="2"/>
+    <net code="44" name="/MOSI">
       <node ref="U3" pin="15"/>
+      <node ref="P9" pin="2"/>
     </net>
-    <net code="44" name="/SIGNAL_A2">
-      <node ref="J3" pin="2"/>
-      <node ref="U1" pin="6"/>
-      <node ref="R10" pin="1"/>
-      <node ref="R7" pin="2"/>
-      <node ref="P12" pin="1"/>
-      <node ref="W3" pin="1"/>
-      <node ref="P12" pin="2"/>
-      <node ref="J4" pin="1"/>
-    </net>
-    <net code="45" name="/FEEDBACK_A2">
-      <node ref="U1" pin="7"/>
-      <node ref="R7" pin="1"/>
-      <node ref="J3" pin="1"/>
-      <node ref="R8" pin="1"/>
-    </net>
-    <net code="46" name="Net-(D2-Pad2)">
-      <node ref="R16" pin="2"/>
-      <node ref="D2" pin="2"/>
-    </net>
-    <net code="47" name="Net-(BIO1-Pad8)">
+    <net code="45" name="Net-(BIO1-Pad8)">
       <node ref="BIO1" pin="8"/>
-    </net>
-    <net code="48" name="Net-(U4-Pad8)">
-      <node ref="U4" pin="8"/>
     </net>
   </nets>
 </export>
