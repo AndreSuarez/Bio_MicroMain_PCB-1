@@ -1,7 +1,7 @@
 (export (version D)
   (design
-    (source C:\Users\ACER\Documents\GitHub\Bioimpedanciometro_Dise-oFinal\Proyecto_Bioimpedancia.sch)
-    (date "27/09/2017 13:00:36")
+    (source C:\Users\ACER\Documents\GitHub\Bio_MicroMain_PCB-1\Proyecto_Bioimpedancia.sch)
+    (date "28/09/2017 16:57:57")
     (tool "Eeschema 4.0.2-stable")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -853,7 +853,7 @@
     (library (logical conn)
       (uri "C:\\Program Files\\KiCad\\share\\kicad\\library\\conn.lib"))
     (library (logical Libreria_Bioimpedancia)
-      (uri C:\Users\ACER\Documents\GitHub\Bioimpedanciometro_Dise-oFinal\Libreria_Proyecto_Bio\Libreria_Bioimpedancia.lib)))
+      (uri C:\Users\ACER\Documents\GitHub\Bio_MicroMain_PCB-1\Libreria_Proyecto_Bio\Libreria_Bioimpedancia.lib)))
   (nets
     (net (code 1) (name /SCK)
       (node (ref U3) (pin 17))

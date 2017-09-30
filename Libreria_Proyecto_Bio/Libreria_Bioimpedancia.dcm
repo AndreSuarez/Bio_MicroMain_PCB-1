@@ -95,6 +95,11 @@ K Quartz, Resonator, Ceramic, Filter
 F Datasheets/AMB3_16M.pdf
 $ENDCMP
 #
+$CMP Atmega328P
+D Microcontrolador
+F Datasheets/Atmel-42735-8-bit-AVR-Microcontroller-ATmega328-328P_Datasheet.pdf
+$ENDCMP
+#
 $CMP Atmega328PA
 D Microcontrolador
 F Datasheets/Atmel-42735-8-bit-AVR-Microcontroller-ATmega328-328P_Datasheet.pdf
