@@ -3,7 +3,7 @@
   (general
     (links 150)
     (no_connects 0)
-    (area 84.44666 43.84984 188.54478 145.109401)
+    (area 86.513199 45.161999 186.613201 145.262001)
     (thickness 1.6)
     (drawings 6)
     (tracks 676)
@@ -2513,7 +2513,7 @@
     (fp_text reference P1 (at 0 -7.62) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value PROTECCION_MICRO (at -0.1524 -6.3246) (layer F.Fab)
+    (fp_text value SD_LAPIZ (at -0.1524 -6.3246) (layer F.Fab)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start -5.56006 -5.64896) (end -5.56006 -5.10032) (layer F.SilkS) (width 0.15))
