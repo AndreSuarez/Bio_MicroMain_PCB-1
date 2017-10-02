@@ -658,28 +658,6 @@ F 3 "" H 2750 1550 60  0000 C CNN
 $EndComp
 Text Notes 4250 3350 0    60   ~ 0
 El AD8606 se modifico por el \nAD8652 por la disponibilidad \nen Analog Device
-$Comp
-L CONN_01X02 P16
-U 1 1 591D7E68
-P 8000 5350
-F 0 "P16" H 8000 5500 50  0000 C CNN
-F 1 "BIO_OUT2" V 8100 5350 50  0000 C CNN
-F 2 "Sockets_MOLEX_KK-System:Socket_MOLEX-KK-RM3-96mm_Lock_2pin_straight" H 8000 5350 50  0001 C CNN
-F 3 "" H 8000 5350 50  0000 C CNN
-	1    8000 5350
-	1    0    0    -1  
-$EndComp
-$Comp
-L CONN_01X02 P14
-U 1 1 591D9B34
-P 7100 5350
-F 0 "P14" H 7100 5500 50  0000 C CNN
-F 1 "BIO_OUT1" V 7200 5350 50  0000 C CNN
-F 2 "Sockets_MOLEX_KK-System:Socket_MOLEX-KK-RM3-96mm_Lock_2pin_straight" H 7100 5350 50  0001 C CNN
-F 3 "" H 7100 5350 50  0000 C CNN
-	1    7100 5350
-	1    0    0    -1  
-$EndComp
 Text Notes 1230 6680 0    60   ~ 0
 Regletas Adicionales de Salidas\n         Digitales y ADC's
 $Comp
@@ -1203,16 +1181,6 @@ Wire Notes Line
 	3820 7690 3820 6500
 Wire Notes Line
 	600  7690 3820 7690
-Connection ~ 7650 5300
-Wire Wire Line
-	7650 5400 7650 5300
-Wire Wire Line
-	7800 5400 7650 5400
-Connection ~ 6750 5300
-Wire Wire Line
-	6750 5400 6750 5300
-Wire Wire Line
-	6900 5400 6750 5400
 Wire Notes Line
 	5900 3050 3900 3050
 Wire Notes Line
@@ -1870,6 +1838,28 @@ F 2 "Capacitors_SMD:C_0805_HandSoldering" H 4760 7030 50  0001 C CNN
 F 3 "" H 4860 7130 50  0000 C CNN
 F 4 "399-1113-2-ND" H 4960 7230 39  0001 C CNN "CAP CER 22PF 50V C0G/NP0 0805"
 	1    4850 7060
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_01X01 P14
+U 1 1 59D2D97F
+P 7100 5300
+F 0 "P14" H 7100 5400 50  0000 C CNN
+F 1 "BIO_OUT1" V 7200 5300 50  0000 C CNN
+F 2 "Connectors:SMA_THT_Jack_Straight" H 7100 5300 50  0001 C CNN
+F 3 "" H 7100 5300 50  0000 C CNN
+	1    7100 5300
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_01X01 P16
+U 1 1 59D2E997
+P 8000 5300
+F 0 "P16" H 8000 5400 50  0000 C CNN
+F 1 "BIO_OUT2" V 8100 5300 50  0000 C CNN
+F 2 "Connectors:SMA_THT_Jack_Straight" H 8000 5300 50  0001 C CNN
+F 3 "" H 8000 5300 50  0000 C CNN
+	1    8000 5300
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC
