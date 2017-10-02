@@ -32,6 +32,10 @@ $CMP 1nF
 D Unpolarized capacitor
 $ENDCMP
 #
+$CMP 1nF_THT
+D Unpolarized capacitor
+$ENDCMP
+#
 $CMP 1uF
 D Unpolarized capacitor
 $ENDCMP
@@ -191,6 +195,12 @@ $ENDCMP
 #
 $CMP R_PROTEC
 D Resistor
+$ENDCMP
+#
+$CMP XRCHA_16M
+D Two pin crystal
+K Quartz, Resonator, Ceramic, Filter
+F Datasheets/AMB3_16M.pdf
 $ENDCMP
 #
 #End Doc Library

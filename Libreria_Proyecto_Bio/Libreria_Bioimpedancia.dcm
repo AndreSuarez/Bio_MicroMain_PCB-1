@@ -64,6 +64,10 @@ $CMP 78,7K
 D Resistor
 $ENDCMP
 #
+$CMP 8pF
+D Unpolarized capacitor
+$ENDCMP
+#
 $CMP AD5933
 D Regulador_3v3
 F Datasheets/AD5933.pdf
@@ -195,6 +199,12 @@ $ENDCMP
 #
 $CMP R_PROTEC
 D Resistor
+$ENDCMP
+#
+$CMP XRCHA_16M
+D Two pin crystal
+K Quartz, Resonator, Ceramic, Filter
+F Datasheets/AMB3_16M.pdf
 $ENDCMP
 #
 #End Doc Library
