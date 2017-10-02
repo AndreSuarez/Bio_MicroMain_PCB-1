@@ -2790,7 +2790,7 @@
   (segment (start 136.41256 90.67836) (end 136.41292 90.678) (width 0.55) (layer F.Cu) (net 3) (tstamp 59A9C56B))
   (segment (start 132.70552 90.67836) (end 133.76438 90.67836) (width 0.4) (layer F.Cu) (net 3))
   (segment (start 133.76438 90.67836) (end 133.7691 90.68308) (width 0.4) (layer F.Cu) (net 3) (tstamp 59A9C55E))
-  (segment (start 127.2 60.375) (end 127.2 59.15) (width 0.6) (layer F.Cu) (net 5) (status 400000))
+  (segment (start 127.2 60.375) (end 127.2 59.15) (width 0.6) (layer F.Cu) (net 5))
   (via (at 127.2 59.15) (size 0.6) (drill 0.4) (layers F.Cu B.Cu) (net 5))
   (segment (start 120.1 60.375) (end 120.1 58.95) (width 0.6) (layer F.Cu) (net 5))
   (via (at 120.1 58.95) (size 0.6) (drill 0.4) (layers F.Cu B.Cu) (net 5))
