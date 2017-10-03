@@ -6,7 +6,7 @@
     (area 86.513199 45.161999 186.613201 145.262001)
     (thickness 1.6)
     (drawings 42)
-    (tracks 774)
+    (tracks 776)
     (zones 0)
     (modules 70)
     (nets 49)
@@ -37,7 +37,7 @@
   )
 
   (setup
-    (last_trace_width 0.25)
+    (last_trace_width 0.55)
     (user_trace_width 0.4)
     (user_trace_width 0.5)
     (user_trace_width 0.55)
@@ -3181,6 +3181,8 @@
   (segment (start 136.41256 90.67836) (end 136.41292 90.678) (width 0.55) (layer F.Cu) (net 3) (tstamp 59A9C56B))
   (segment (start 132.70552 90.67836) (end 133.76438 90.67836) (width 0.4) (layer F.Cu) (net 3))
   (segment (start 133.76438 90.67836) (end 133.7691 90.68308) (width 0.4) (layer F.Cu) (net 3) (tstamp 59A9C55E))
+  (via (at 162.15 88.29) (size 0.6) (drill 0.4) (layers F.Cu B.Cu) (net 5))
+  (via (at 162.14 86.89) (size 0.6) (drill 0.4) (layers F.Cu B.Cu) (net 5))
   (via (at 94.41 65.47) (size 0.6) (drill 0.4) (layers F.Cu B.Cu) (net 5))
   (via (at 96.25 67.87) (size 0.6) (drill 0.4) (layers F.Cu B.Cu) (net 5))
   (via (at 95 67.85) (size 0.6) (drill 0.4) (layers F.Cu B.Cu) (net 5))
@@ -4790,6 +4792,14 @@
     (filled_polygon
       (pts
         (xy 125.93252 92.12536) (xy 125.67852 92.12536) (xy 125.67852 91.83136) (xy 125.93252 91.83136)
+      )
+    )
+    (filled_polygon
+      (pts
+        (xy 162.70519 87.84863) (xy 162.749468 88.083947) (xy 162.88854 88.300071) (xy 163.10074 88.445061) (xy 163.302857 88.485991)
+        (xy 163.293942 88.507461) (xy 163.293618 88.879427) (xy 163.36988 89.063996) (xy 161.169581 89.063287) (xy 161.341161 88.806498)
+        (xy 161.4542 88.238213) (xy 161.4542 88.180027) (xy 161.341161 87.611742) (xy 161.019254 87.129973) (xy 160.537485 86.808066)
+        (xy 160.252807 86.75144) (xy 162.70519 86.75144)
       )
     )
     (filled_polygon

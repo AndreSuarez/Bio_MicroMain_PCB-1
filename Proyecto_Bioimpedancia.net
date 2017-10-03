@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source C:/Users/ACER/Documents/GitHub/Bio_MicroMain_PCB-1/Proyecto_Bioimpedancia.sch)
-    (date "03/10/2017 1:58:32")
+    (date "03/10/2017 12:48:10")
     (tool "Eeschema 4.0.2-stable")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -493,7 +493,7 @@
       (tstamp 59D32E4B))
     (comp (ref P10)
       (value UNIVERSAL_PINS)
-      (footprint Huellas:Universal_Path_80_Pins)
+      (footprint Huellas:Universal_Path_300_Pins)
       (libsource (lib conn) (part CONN_01X01))
       (sheetpath (names /) (tstamps /))
       (tstamp 59D34918)))
