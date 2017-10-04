@@ -1907,4 +1907,64 @@ $EndComp
 NoConn ~ 6450 6090
 Text Notes 6180 5850 0    39   ~ 0
 Regleta Universal 
+Wire Notes Line
+	7000 5730 7000 6410
+Wire Notes Line
+	7000 6410 8170 6410
+Wire Notes Line
+	7000 5730 9050 5730
+$Comp
+L CONN_01X01 P17
+U 1 1 59D7D59E
+P 7510 6070
+F 0 "P17" H 7510 6170 50  0000 C CNN
+F 1 "TOR_1" V 7610 6070 50  0000 C CNN
+F 2 "Mounting_Holes:MountingHole_3.2mm_M3_Pad_Via" H 7510 6070 50  0001 C CNN
+F 3 "" H 7510 6070 50  0000 C CNN
+	1    7510 6070
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_01X01 P18
+U 1 1 59D7DB22
+P 7920 6070
+F 0 "P18" H 7920 6170 50  0000 C CNN
+F 1 "TOR_2" V 8020 6070 50  0000 C CNN
+F 2 "Mounting_Holes:MountingHole_3.2mm_M3_Pad_Via" H 7920 6070 50  0001 C CNN
+F 3 "" H 7920 6070 50  0000 C CNN
+	1    7920 6070
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_01X01 P19
+U 1 1 59D7E0E8
+P 8320 6070
+F 0 "P19" H 8320 6170 50  0000 C CNN
+F 1 "TOR_3" V 8420 6070 50  0000 C CNN
+F 2 "Mounting_Holes:MountingHole_3.2mm_M3_Pad_Via" H 8320 6070 50  0001 C CNN
+F 3 "" H 8320 6070 50  0000 C CNN
+	1    8320 6070
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_01X01 P20
+U 1 1 59D7E0EE
+P 8730 6070
+F 0 "P20" H 8730 6170 50  0000 C CNN
+F 1 "TOR_4" V 8830 6070 50  0000 C CNN
+F 2 "Mounting_Holes:MountingHole_3.2mm_M3_Pad_Via" H 8730 6070 50  0001 C CNN
+F 3 "" H 8730 6070 50  0000 C CNN
+	1    8730 6070
+	1    0    0    -1  
+$EndComp
+Wire Notes Line
+	8160 6410 9050 6410
+Wire Notes Line
+	9050 6410 9050 5730
+Text Notes 7730 5830 0    39   ~ 0
+Tornillos para la PCB
+NoConn ~ 8530 6070
+NoConn ~ 8120 6070
+NoConn ~ 7720 6070
+NoConn ~ 7310 6070
 $EndSCHEMATC

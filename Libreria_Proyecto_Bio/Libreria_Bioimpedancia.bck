@@ -64,6 +64,10 @@ $CMP 78,7K
 D Resistor
 $ENDCMP
 #
+$CMP 8pF
+D Unpolarized capacitor
+$ENDCMP
+#
 $CMP AD5933
 D Regulador_3v3
 F Datasheets/AD5933.pdf
