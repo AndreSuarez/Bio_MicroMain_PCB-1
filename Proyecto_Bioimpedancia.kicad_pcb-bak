@@ -5,7 +5,7 @@
     (no_connects 0)
     (area 86.513199 45.161999 186.613201 145.262001)
     (thickness 1.6)
-    (drawings 42)
+    (drawings 43)
     (tracks 940)
     (zones 0)
     (modules 80)
@@ -14,7 +14,7 @@
 
   (page A4)
   (layers
-    (0 F.Cu signal hide)
+    (0 F.Cu signal)
     (31 B.Cu signal)
     (32 B.Adhes user)
     (33 F.Adhes user)
@@ -4909,6 +4909,9 @@
       (xy -1.0795 -3.251877) (xy -0.333375 -3.226741)) (layer F.SilkS) (width 0.01))
   )
 
+  (gr_text "001 BIOIMPEDANCEMETER" (at 155.46 57.67) (layer B.SilkS)
+    (effects (font (size 2 2) (thickness 0.3)) (justify mirror))
+  )
   (gr_text UNIVERSAL_PINS (at 136.11 116.37) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.25)))
   )
